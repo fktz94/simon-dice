@@ -1,0 +1,31 @@
+.cuadro {
+  height: 13rem;
+  width: 13rem;
+  opacity: 0.7;
+}
+
+#cuadro-1 {
+  border-radius: 350px 0px 0px 0px;
+}
+#cuadro-2 {
+  border-radius: 0px 350px 0px 0px;
+}
+#cuadro-3 {
+  border-radius: 0px 0px 0px 350px;
+}
+#cuadro-4 {
+  border-radius: 0px 0px 350px 0px;
+}
+.cuadro:hover {
+  opacity: 1;
+  transition-delay: 6ms;
+  transition-duration: 40ms;
+  transition-timing-function: linear;
+  cursor: pointer;
+}
+.cuadro:active {
+  border: 1px solid black;
+}
+.comenzar {
+  flex-basis: content;
+}
