@@ -16,7 +16,7 @@
 #cuadro-4 {
   border-radius: 0px 0px 350px 0px;
 }
-.cuadro:hover {
+.hover:hover {
   opacity: 1;
   transition-delay: 6ms;
   transition-duration: 40ms;
@@ -24,6 +24,13 @@
   cursor: pointer;
 }
 .cuadro:active {
+  border: 1px solid black;
+}
+.cuadro-elegido {
+  opacity: 1;
+  transition-delay: 6ms;
+  transition-duration: 40ms;
+  transition-timing-function: linear;
   border: 1px solid black;
 }
 .comenzar {
