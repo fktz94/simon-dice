@@ -1,7 +1,8 @@
 .cuadro {
   height: 13rem;
   width: 13rem;
-  opacity: 0.7;
+  opacity: 0.6;
+  transition: opacity 300ms;
 }
 
 #cuadro-1 {
@@ -23,16 +24,29 @@
   transition-timing-function: linear;
   cursor: pointer;
 }
-.cuadro:active {
+.hover:active {
   border: 1px solid black;
 }
-.cuadro-elegido {
+.resaltar {
   opacity: 1;
-  transition-delay: 6ms;
-  transition-duration: 40ms;
-  transition-timing-function: linear;
-  border: 1px solid black;
+}
+.despintar {
+  opacity: 0.6;
 }
 .comenzar {
   flex-basis: content;
+}
+#perdiste {
+  position: absolute;
+  opacity: 0;
+  top: 30%;
+  left: 50%;
+  right: 50%;
+  text-align: center;
+  display: none;
+  font-size: 5rem;
+  letter-spacing: 40px;
+}
+.opacity {
+  opacity: 0;
 }
