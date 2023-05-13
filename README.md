@@ -1,3 +1,4 @@
-# simon-dice
+## Simon Dice
 # 
-# proyecto de un simón dice, hecho con html, css y js, un poco de boostrap, a partir de una tarea del curso de Argentina Programa (clase 10)
+# Proyecto hecho con html, css, js y algo de boostrap
+# tarea del curso de r/argentina-programa (clase 10)
